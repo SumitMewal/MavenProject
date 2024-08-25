@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Advance Framework Suite">
+  <test name="Test plasma">
+	 
+	  <parameter name="url" value="https://nasstaging2-wf.c2m.net/auth/login"/> 
+	  <parameter name="emailID" value="sumits@plasmacomp.com"/>
+	  <parameter name="password" value="Plasma1!"/>
+    <classes>
+         
+      <class name="test.plasma.parameter.Logintest"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->
